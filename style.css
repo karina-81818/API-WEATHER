@@ -1,0 +1,68 @@
+body{
+    background-image: url(pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+input{
+    background-color: rgba(142,127,161,0.3);
+    border-radius: 20px;
+    border: 3px solid #CDF3A2;
+    padding: 15px;
+    font-size: 20px;
+}
+input:focus{
+    background-color: white;
+}
+.when-where{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.city{
+    color: white;
+    font-size: 45px;
+}
+.date{
+    color: white;
+    font-size: 24px;
+}
+.now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temperature{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px rgb(37, 29, 45);
+    margin: 0;
+}
+.feelslike{
+    color: white;
+    font-size: 30px;
+    
+}
+.condition{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+.variation{
+    color: white;
+    font-size: 26px; 
+}
